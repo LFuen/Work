@@ -1,0 +1,13 @@
+.margin {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    color: whitesmoke;
+    font-family: 'Roboto Mono', monospace;
+}
+
+div.bg-color {
+    padding: 25px 10px 25px 10px;
+}

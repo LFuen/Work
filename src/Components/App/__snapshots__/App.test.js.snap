@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component Snapshot renders the UI as expected 1`] = `
+<div>
+  <nav
+    className="navigation"
+  >
+    <a
+      aria-current={null}
+      className="link"
+      href="/Portfolio"
+      onClick={[Function]}
+    >
+      Welcome
+    </a>
+    <a
+      aria-current={null}
+      className="link"
+      href="/About"
+      onClick={[Function]}
+    >
+      About
+    </a>
+    <a
+      aria-current={null}
+      className="link"
+      href="/Projects"
+      onClick={[Function]}
+    >
+      Projects
+    </a>
+    <a
+      aria-current={null}
+      className="link"
+      href="/Contact"
+      onClick={[Function]}
+    >
+      Contact
+    </a>
+    <a
+      aria-current={null}
+      className="link"
+      href="/Inquiries"
+      onClick={[Function]}
+    >
+      Inquiries
+    </a>
+  </nav>
+  <footer
+    className="foot"
+  >
+    <p>
+       © Lili Fuentes | 2020 
+    </p>
+  </footer>
+</div>
+`;

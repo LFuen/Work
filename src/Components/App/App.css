@@ -1,0 +1,334 @@
+body {
+  background-image: url("https://lfuen.github.io/portimages/background.jpg");
+  background-color: #1d3557;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px #90e0ef;
+  font-family: "Alegreya";
+  padding-bottom: 120px;
+}
+
+.textShadow {
+  text-shadow: 2px 2px 10px #1d3557;
+}
+
+.margin {
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+
+h1 {
+  color: whitesmoke;
+  margin-top: 40px;
+  font-size: 50px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+  color: whitesmoke;
+  font-family: 'Roboto Mono', monospace;
+}
+
+p {
+  color: whitesmoke;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+}
+
+article {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+hr {
+  color: rgb(255, 239, 209);
+  background-color: #1d3557;
+  border: 1px solid;
+  width: 85%;
+  height: 3px;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*=======================================================*/
+/*=======================================================*/
+/* Scrolling navigation bar */
+.topNav {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 9;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  padding-top: 5px;
+  overflow: hidden;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  background-color:  black;
+}
+
+
+.nav a {
+  padding: 7px 20px;
+  border-radius: 7px;
+  margin-right: 10px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2 ease-out;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  font-family: "Alegreya";
+  font-weight: 100;
+}
+
+
+/*=======================================================*/
+/*=======================================================*/
+
+a:link {
+  color: #00c2fd;
+  -webkit-text-stroke: #1d3557;
+}
+
+a:visited {
+  color: #00ee3b;
+}
+
+
+/*=======================================================*/
+/*=======================================================*/
+
+.App {
+  align-items: center;
+  height: 100px;
+  padding: 30px;
+  position: center;
+  justify-content: center;
+}
+
+footer {
+  height: 15px;
+  padding: 30px;
+  position: center;
+  background-image: linear-gradient(transparent, #1d3557);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 10px 25px 10px;
+  font-size: 18px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.regSize {
+  width: 40px;
+  height: 40px;
+}
+
+section.bg-color {
+  padding: 25px 10px 25px 10px;
+}
+
+.borderOne {
+  border-radius: 5px;
+  width: 25%;
+  height: 15%;
+  padding: 20px;
+  border: 1px solid rgb(255, 239, 209);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.centerImage {
+    padding: 1px;
+    border: 3px solid  whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+    box-shadow: 5px 5px 5px #90e0ef;
+}
+
+/*=======================================================*/
+/*=======================================================*/
+/*Scrollbar customization*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(whitesmoke, black);
+  border-radius: 10px;
+}
+
+/*=======================================================*/
+/*=======================================================*/
+/* Submission for for visitors */
+
+form {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #90e0ef;
+  display: block;
+  margin: 0 auto !important;
+  border-color: solid whitesmoke;
+  background-image: linear-gradient(transparent, #1d3557);
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color:whitesmoke;
+  font-family: "Alegreya";
+}
+
+form input[type=text] {
+  color: #000;
+  font-size: 15px;
+  margin-bottom: 20px;
+  width: 90%;
+  background-color: lightgrey;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #90e0ef;
+}
+
+form button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 0;
+  font-family: "Alegreya";
+  font-size: 16px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px #90e0ef;
+  margin: 15px 8px 10px 0;
+  background-image: linear-gradient(black, #1d3557);
+  box-shadow: 3px 3px 3px #90e0ef;
+}
+
+fieldset {
+  padding: 10px 12px;
+  margin: 10px 0 20px 0;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 90%;
+  height: 200px;
+  box-shadow: 5px 5px 5px #90e0ef;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+/*=======================================================*/
+/*=======================================================*/
+
+
+@media all and (max-width: 600px) {
+  /* nav {
+      display: none;
+  } */
+
+  .topNav {
+      position: fixed;
+      width: 100%;
+      top: 0px;
+      z-index: 9;
+      padding-left: 10px;
+      padding-bottom: 8px;
+      padding-top: 5px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+  }
+
+  head { 
+      display: flex;
+      justify-content: space-between;
+      padding: 0 30px;
+  }
+
+  head nav {
+      margin-top: 8px;
+  }
+
+  body {
+      width: fit-content;
+      background-image: none;
+      background-color: black;
+  }
+
+  p {
+      font-size: 12px;
+  }
+
+  .borderOne {
+      border-radius: 5px;
+      width: 50%;
+      height: 15%;
+  }
+
+  form {
+      width: 75%;
+  }
+
+  h1 {
+      font-size: 18px;
+  }
+}
+
+.active {
+  z-index: 99;
+}
+

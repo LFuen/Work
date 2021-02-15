@@ -1,0 +1,54 @@
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+.margin {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+div.bg-color {
+    padding: 25px 10px 25px 10px;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+}
+
+
+@keyframes bob {
+    0% {
+        transform: translateY(-8px);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+    100% {
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes float {
+    100% {
+        transform: translateY(-8px);
+    }
+}
+
+img:hover {
+    animation-name: float, bob;
+    animation-duration: .3s, 1.5s;
+    animation-delay: 0s, .3s;
+    animation-timing-function: ease-out, ease-in-out;
+    animation-iteration-count: 1, infinite;
+    animation-fill-mode: forwards;
+    animation-direction: normal, alternate;
+}
