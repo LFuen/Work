@@ -12,7 +12,7 @@ class Nav extends Component{
     render(){
         return(
             <BrowserRouter>
-                <nav className='navigation'>
+                <nav className='navigation topnav'>
                     <NavLink className='link' to='/Portfolio'>Welcome</NavLink>
                     <NavLink className='link' to='/About'>About</NavLink>
                     <NavLink className='link' to='/Projects'>Projects</NavLink>
