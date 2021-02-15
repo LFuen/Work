@@ -275,7 +275,7 @@ textarea {
 /*=======================================================*/
 
 
-@media all and (max-width: 600px) {
+@media all and (max-device-width: 800px) {
   /* nav {
       display: none;
   } */
@@ -310,7 +310,7 @@ textarea {
   }
 
   p {
-      font-size: 12px;
+      font-size: 20px;
   }
 
   .borderOne {
@@ -326,6 +326,8 @@ textarea {
   h1 {
       font-size: 18px;
   }
+
+
 }
 
 .active {
