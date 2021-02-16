@@ -22,6 +22,10 @@ font-family: 'Big Shoulders Stencil Text', cursive;
     color:rgb(53, 255, 17)
 }
 
-.describe {
-    width: 50%;
+
+@media screen and (max-width: 960px) {
+    .describe {
+        width: 50%;
+        font-size: larger;
+    }
 }
