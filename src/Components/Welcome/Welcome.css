@@ -12,3 +12,6 @@
     animation: animated-border 2s infinite;
 }
 
+.margin {
+    margin-top: 100px !important;
+}

@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {useState} from 'react'
 import { Route, BrowserRouter, NavLink } from 'react-router-dom'
 import './Nav.css'
 import Welcome from '../Welcome/Welcome'
@@ -8,16 +8,47 @@ import Contact from '../Contact/Contact'
 import Inquiries from '../Inquiries/Inquiries'
 
 
-class Nav extends Component{
-    render(){
+    function Nav() {
+
+        const [click, setClick] = useState(false);
+
+        const handleClick = () => setClick(!click);
+        const closeMenu = () => setClick(false);
+
         return(
             <BrowserRouter>
-                <nav className='navigation topnav'>
-                    <NavLink className='link' to='/Portfolio'>Welcome</NavLink>
-                    <NavLink className='link' to='/About'>About</NavLink>
-                    <NavLink className='link' to='/Projects'>Projects</NavLink>
-                    <NavLink className='link' to='/Contact'>Contact</NavLink>
-                    <NavLink className='link' to='/Inquiries'>Inquiries</NavLink>
+                <nav className="navbar navigation topnav">
+                    <div className="menu-icon" onClick={handleClick}>
+                    <i className={click ? "fas fa-times" : "fas fa-bars"} />
+                    </div>
+
+                    <ul className={click ? "nav-menu active" : "nav-menu"}>
+                        <li className="nav-item">
+                            <NavLink to="/Portfolio" className="nav-links link" onClick={closeMenu}>
+                            Welcome
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/About" className="nav-links link" >
+                            About
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/Projects" className="nav-links link">
+                            Projects
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/Contact" className="nav-links link">
+                            Contact
+                            </NavLink>
+                        </li>
+                            <li className="nav-item">
+                            <NavLink to="/Inquiries" className="nav-links link">
+                            Inquiries
+                            </NavLink>
+                        </li>
+                    </ul>
                 </nav>
                 <Route exact path='/Portfolio' component={Welcome}/>
                 <Route exact path='/About' component={About}/>
@@ -26,8 +57,8 @@ class Nav extends Component{
                 <Route exact path='/Inquiries' component={Inquiries}/>
             </BrowserRouter>
         )
-    }
 }
 
 
 export default Nav
+
