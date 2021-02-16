@@ -209,4 +209,9 @@ ul.nav-menu {
         background-color: black;
         width: fit-content;
     }
+
+    footer {
+        align-items: left; 
+        justify-content: left;
     }
+}
