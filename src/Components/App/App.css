@@ -276,22 +276,6 @@ textarea {
 
 
 @media screen and (max-device-width: 960px) {
-  /* nav {
-      display: none;
-  } */
-
-  .topNav {
-      position: fixed;
-      width: 100%;
-      top: 0px;
-      z-index: 9;
-      padding-left: 10px;
-      padding-bottom: 8px;
-      padding-top: 5px;
-      overflow: hidden;
-      display: flex;
-      justify-content: center;
-  }
 
   head { 
       display: flex;

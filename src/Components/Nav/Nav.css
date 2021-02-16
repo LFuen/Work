@@ -126,7 +126,7 @@ ul.nav-menu {
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-device-width: 960px) {
 
     .nav-menu {
         display: flex;
@@ -203,5 +203,10 @@ ul.nav-menu {
     
     button {
         display: none;
+    }
+
+    body {
+        background-color: black;
+        width: fit-content;
     }
     }
