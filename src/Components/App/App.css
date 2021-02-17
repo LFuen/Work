@@ -275,7 +275,7 @@ textarea {
 /*=======================================================*/
 
 
-@media screen and (max-device-width: 960px) {
+@media screen and (max-width: 1020px) {
 
   head { 
       display: flex;
@@ -308,7 +308,7 @@ textarea {
   }
 
   h1 {
-      font-size: 18px;
+      font-size: 25px;
   }
 
 

@@ -122,7 +122,7 @@ ul.nav-menu {
     }
 }
 
-@media screen and (max-device-width: 960px) {
+@media screen and (max-width: 1020px) {
 
     .nav-menu {
         display: flex;
