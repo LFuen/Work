@@ -52,3 +52,18 @@ img:hover {
     animation-fill-mode: forwards;
     animation-direction: normal, alternate;
 }
+
+@media screen and (max-width: 1020px) {
+    .flexRow{
+    margin: auto;
+    font-size: medium;
+    }
+    
+    h1{
+        font-size: 40px !important;
+    }
+
+    .mobile{
+        margin-top: 20px;
+    }
+}

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './Projects.css'
+import travel from '../../icons/travelers.png'
 
 
 class Projects extends Component{
@@ -8,14 +9,14 @@ class Projects extends Component{
         <div className='projects'>
             <h1 className='flexRow margin' id='Projects'>Projects</h1>
             <div className='flexColumn'>
-                <h2>Bookmark Saver</h2>
-                <p className='describe'>This app lets you save all your bookmarks in one place. Filter by your rating and edit at a later time.
-                    This app was created as a project to show the efficient use of jQuery and JavaScript.</p>
-                    <p className='skills'><u><b>Skills:</b></u> JavaScript / jQuery / Node / HTML / CSS</p>
-                <a href='https://github.com/thinkful-ei-tiger/Fuentes-bookmarks-app' target='_blank' rel='noreferrer'>Project Repo</a>                
+
+                <h2>Travelers</h2>
+                <p className='describe'>Share travel guides for a community of users.</p>
+                <p className='skills'><u><b>Skills:</b></u> React / JavaScript / CSS / Node / PostgreSQL</p>
+                <a href='https://github.com/LFuen/travelers-client'>Project Repo</a>                
                 <br/>
                 <div className='borderOne flexRow proj'>
-                    <a href='https://thinkful-ei-tiger.github.io/Fuentes-bookmarks-app/' target='_blank' rel='noreferrer'><img src='https://lfuen.github.io/portimages/ProjectBook.gif' alt='BookmarkApp'/></a>
+                    <a href='https://travelers.vercel.app/' target='_blank' rel='noreferrer'><img src={travel} alt='Travelers'/></a>
                 </div>
 
                 <br/>
@@ -23,7 +24,7 @@ class Projects extends Component{
                 <h2>La Carte</h2>
                 <p className='describe'>La Carte is a healthy meal-ordering app, catered figuratively and quite <em>literally</em> to the ever-working individual.
                 This app was created to show proficiency in React and JavaScript, along with CRUD functionality and the use of databases.</p>
-                <p className='skills'><u><b>Skills:</b></u> React / PostgreSQL / JavaScript / Node / CSS</p>
+                <p className='skills'><u><b>Skills:</b></u> React / JavaScript / CSS / Node / PostgreSQL</p>
                 <a href='https://github.com/LFuen/laCarte' target='_blank' rel='noreferrer'>Project Repo</a>
                 <br/>
                 <div className='borderOne flexRow proj'>
@@ -40,6 +41,8 @@ class Projects extends Component{
                 <div className='borderOne flexRow proj'>
                     <a href='https://lfuen.github.io/QuizApp/' target='_blank' rel='noreferrer'><img src='https://lfuen.github.io/portimages/question.png' alt='QuizApp'/></a>
                 </div>
+
+
 
             </div>
             <br/>

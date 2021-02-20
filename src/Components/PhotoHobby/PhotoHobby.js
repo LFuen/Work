@@ -5,7 +5,7 @@ import './PhotoHobby.css'
 class PhotoHobby extends Component {
     render() {
         return (
-            <div className='bg-color margin'>
+            <div className='bg-color margin mobile'>
                 <div className='flexRow'>
                     <div className='item'>
                         <a 

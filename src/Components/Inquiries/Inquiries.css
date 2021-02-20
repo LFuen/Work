@@ -12,3 +12,13 @@
     justify-content: space-around;
     align-items: center;
 }
+
+
+
+@media screen and (max-width: 1020px) {
+    
+    .margin {
+        margin-bottom: 60px;
+    }
+
+}
