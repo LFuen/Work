@@ -29,22 +29,22 @@ import Inquiries from '../Inquiries/Inquiries'
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/About" className="nav-links link" >
+                            <NavLink to="/About" className="nav-links link" onClick={closeMenu}>
                             About
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/Projects" className="nav-links link">
+                            <NavLink to="/Projects" className="nav-links link" onClick={closeMenu}>
                             Projects
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/Contact" className="nav-links link">
+                            <NavLink to="/Contact" className="nav-links link" onClick={closeMenu}>
                             Contact
                             </NavLink>
                         </li>
                             <li className="nav-item">
-                            <NavLink to="/Inquiries" className="nav-links link">
+                            <NavLink to="/Inquiries" className="nav-links link" onClick={closeMenu}>
                             Inquiries
                             </NavLink>
                         </li>
