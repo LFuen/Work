@@ -24,7 +24,7 @@ import Inquiries from '../Inquiries/Inquiries'
 
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <NavLink to="/Portfolio" className="nav-links link" onClick={closeMenu}>
+                            <NavLink to="/Work" className="nav-links link" onClick={closeMenu}>
                             Welcome
                             </NavLink>
                         </li>
@@ -50,7 +50,7 @@ import Inquiries from '../Inquiries/Inquiries'
                         </li>
                     </ul>
                 </nav>
-                <Route exact path='/Portfolio' component={Welcome}/>
+                <Route exact path='/Work' component={Welcome}/>
                 <Route exact path='/About' component={About}/>
                 <Route exact path='/Projects' component={Projects}/>
                 <Route exact path='/Contact' component={Contact}/>
