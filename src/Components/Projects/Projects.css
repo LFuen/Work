@@ -19,13 +19,14 @@ font-family: 'Big Shoulders Stencil Text', cursive;
 }
 
 .skills {
-    color:rgb(53, 255, 17)
+    color:rgb(53, 255, 17);
+    text-align: center;
 }
 
 
 @media screen and (max-width: 1020px) {
     .describe {
-        width: 50%;
-        font-size: larger;
+        width: 80%;
+        font-size: medium;
     }
 }

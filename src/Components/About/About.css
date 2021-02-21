@@ -37,3 +37,9 @@ a:focus {
     box-shadow: 0 0 6px 6px rgba(114, 215, 255, 0.5);
     animation: animated-border 2s infinite;
 }
+
+@media screen and (max-width: 1020px) {
+    .margin {
+        margin-top: 20px;
+    }
+}

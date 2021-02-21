@@ -59,6 +59,7 @@ img:hover {
 @media screen and (max-width: 1020px) {
     .flexRow{
     margin: auto;
+    flex-direction: column;
     font-size: medium;
     }
     
@@ -66,7 +67,7 @@ img:hover {
         font-size: 40px !important;
     }
 
-    .mobile{
+    .margin{
         margin-top: 20px;
     }
 }

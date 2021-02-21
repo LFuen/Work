@@ -20,3 +20,8 @@
     animation: fadeIn;
 }
 
+@media screen and (max-width: 1020px) {
+    #Welcome {
+        font-size: 40px;
+    }
+}

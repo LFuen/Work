@@ -15,7 +15,7 @@ import git from '../../icons/git.png'
 import js from '../../icons/js.png'
 
 import './Welcome.css'
-import { WelcomeDiv } from './styledW'
+import { WelcomeDiv, Images } from './styledW'
 
 
 class Welcome extends Component{
@@ -38,13 +38,17 @@ class Welcome extends Component{
                     <p><b>Front-end Developing</b></p>
                     <p><b>Back-end Developing</b></p> 
                     <p><b>Full-Stack Developing</b></p> 
-                    {/* <p>
+                    </div>
+                    {/* <Images className='icons'>
                         <img alt='HTML' src={html}/>
                         <img alt='CSS' src={css}/>
                         <img alt='JavaScript' src={js}/>
                         <img alt='jQuery' src={jquery}/>
                         <img alt='Github' src={gh}/>
                         <img alt='Git' src={git}/>
+                    <Images/>    
+                        <br/>
+                    <Images className='icons'></Images>
                         <img alt='React' src={react}/>
                         <img alt='Node' src={node}/>
                         <img alt='PostgreSQL' src={postgres}/>
@@ -53,8 +57,7 @@ class Welcome extends Component{
                         <img alt='KNEX' src={knex}/>
                         <img alt='Mocha' src={mocha}/>
                         <img alt='Heroku' src={heroku}/>
-                    </p> */}
-                    </div>
+                    </Images> */}
             </div>
         </WelcomeDiv>
         );
