@@ -1,11 +1,12 @@
 import React, {Component} from 'react'
 import PhotoHobby from '../PhotoHobby/PhotoHobby'
 import './About.css'
+import { AboutDiv } from './styledA';
 
 class About extends Component{
     render(){
         return (
-        <div className='about'>
+        <AboutDiv className='about'>
             <section className='bg-color'>
             <h1 className='flexRow' id='About'>About</h1>
             <div className='flexColumn'>
@@ -42,7 +43,7 @@ class About extends Component{
             <h2 className='flexRow'>These are some of my favorite shots:</h2>
             <PhotoHobby />
 
-        </div>
+        </AboutDiv>
         );
     }
 }

@@ -1,12 +1,13 @@
 import React, {Component} from 'react'
 import './Projects.css'
 import travel from '../../icons/travelers.png'
+import { ProjectDiv } from './styledP';
 
 
 class Projects extends Component{
     render(){
         return (
-        <div className='projects'>
+        <ProjectDiv className='projects'>
             <h1 className='flexRow margin' id='Projects'>Projects</h1>
             <div className='flexColumn'>
 
@@ -49,7 +50,7 @@ class Projects extends Component{
             <br/>
             <br/>
             <br/>
-        </div>
+        </ProjectDiv>
         );
     }
 }

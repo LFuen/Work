@@ -15,12 +15,13 @@ import git from '../../icons/git.png'
 import js from '../../icons/js.png'
 
 import './Welcome.css'
+import { WelcomeDiv } from './styledW'
 
 
 class Welcome extends Component{
     render(){
         return (
-        <div>
+        <WelcomeDiv>
             <header id='Top' className='margin'>
                 <h1 className='flexRow' >Lili Fuentes</h1>
             </header>      
@@ -55,7 +56,7 @@ class Welcome extends Component{
                     </p> */}
                     </div>
             </div>
-        </div>
+        </WelcomeDiv>
         );
     }
 }

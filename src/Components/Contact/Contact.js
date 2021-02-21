@@ -1,12 +1,13 @@
 import React, {Component} from 'react'
 import './Contact.css'
+import { ContactDiv } from './styledC';
 
 
 class Contact extends Component{
 
     render(){
         return (
-        <div className='App'>
+        <ContactDiv className='App'>
             <article className='margin'>
                 <h1 id='Contact'>Contact</h1>
                 <div>
@@ -70,7 +71,7 @@ class Contact extends Component{
                     </div>
                 </div>
             </article>
-        </div>
+        </ContactDiv>
         );
     }
 } 

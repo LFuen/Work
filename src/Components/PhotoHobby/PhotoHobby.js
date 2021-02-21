@@ -3,7 +3,9 @@ import './PhotoHobby.css'
 
 
 class PhotoHobby extends Component {
+
     render() {
+
         return (
             <div className='bg-color margin mobile'>
                 <div className='flexRow'>
@@ -16,7 +18,7 @@ class PhotoHobby extends Component {
                             title='Great Falls'>
                             
                             <img 
-                                src='https://lfuen.github.io/portimages/greatFalls.jpeg' 
+                                src='https://lfuen.github.io/portimages/greatFalls.jpeg' // {photos[active]}
                                 alt='Great Falls' 
                                 width='400'/>
                         </a>
@@ -77,6 +79,7 @@ class PhotoHobby extends Component {
                                 width='400'/>
                         </a>
                     </div>
+
                 </div>
             </div>
         )
