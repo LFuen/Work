@@ -1,18 +1,17 @@
 import React, {Component} from 'react'
-import react from '../../icons/react.png'
-import html from '../../icons/html5.png'
-import css from '../../icons/css3.png'
-import express from '../../icons/express.png'
-import node from '../../icons/nodejs.png'
-import npm from '../../icons/npm.png'
-import jquery from '../../icons/jquery.png'
-import postgres from '../../icons/postgresql.png'
-import heroku from '../../icons/heroku.png'
-import mocha from '../../icons/mocha.png'
-import knex from '../../icons/knex.png'
-import gh from '../../icons/gh.png'
-import git from '../../icons/git.png'
-import js from '../../icons/js.png'
+// import react from '../../icons/react.png'
+// import html from '../../icons/html5.png'
+// import css from '../../icons/css3.png'
+// import express from '../../icons/express.png'
+// import node from '../../icons/nodejs.png'
+// import styled from '../../icons/styled.png'
+// import heroku from '../../icons/heroku.png'
+// import jquery from '../../icons/jquery.png'
+// import postgres from '../../icons/postgresql.png'
+// import vstudio from '../../icons/vstudio.png'
+// import gh from '../../icons/gh.png'
+// import git from '../../icons/git.png'
+// import js from '../../icons/js.png'
 
 import './Welcome.css'
 import { WelcomeDiv, Images } from './styledW'
@@ -40,23 +39,21 @@ class Welcome extends Component{
                     <p><b>Full-Stack Developing</b></p> 
                     </div>
                     {/* <Images className='icons'>
-                        <img alt='HTML' src={html}/>
-                        <img alt='CSS' src={css}/>
-                        <img alt='JavaScript' src={js}/>
-                        <img alt='jQuery' src={jquery}/>
-                        <img alt='Github' src={gh}/>
-                        <img alt='Git' src={git}/>
-                    <Images/>    
+                        <img src={html} />
+                        <img src={css} />
+                        <img src={js} />
+                        <img src={node} />
+                        <img src={express} />
+                        <img src={react} />
+                    </Images>
                         <br/>
-                    <Images className='icons'></Images>
-                        <img alt='React' src={react}/>
-                        <img alt='Node' src={node}/>
-                        <img alt='PostgreSQL' src={postgres}/>
-                        <img alt='NPM' src={npm}/>
-                        <img alt='Express' src={express}/>
-                        <img alt='KNEX' src={knex}/>
-                        <img alt='Mocha' src={mocha}/>
-                        <img alt='Heroku' src={heroku}/>
+                    <Images className='icons'>
+                        <img src={styled} />
+                        <img src={gh} />
+                        <img src={postgres} />
+                        <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
+                        <img src={heroku} />
+                        <img src={vstudio} />
                     </Images> */}
             </div>
         </WelcomeDiv>

@@ -9,10 +9,11 @@ const WelcomeDiv = styled.div`
 const Images = styled.div`
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 
     img{
         object-fit: scale-down;
-    }
+}
 `
 
 export {
