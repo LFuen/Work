@@ -18,9 +18,10 @@ class PhotoHobby extends Component {
                             title='Great Falls'>
                             
                             <img 
-                                src='https://lfuen.github.io/portimages/greatFalls.jpeg' // {photos[active]}
+                                src='https://lfuen.github.io/portimages/greatFalls.jpeg' 
                                 alt='Great Falls' 
-                                width='400'/>
+                                width='400'
+                                className='photos'/>
                         </a>
                     </div>
                     <div className='item'>
@@ -34,7 +35,8 @@ class PhotoHobby extends Component {
                             <img 
                                 src='https://lfuen.github.io/portimages/reflection.jpeg' 
                                 alt='Reflection' 
-                                width='400'/>
+                                width='400'
+                                className='photos'/>
                         </a>
                     </div>
                     <div className='item'>
@@ -48,7 +50,8 @@ class PhotoHobby extends Component {
                             <img 
                                 src='https://lfuen.github.io/portimages/road.jpeg' 
                                 alt='Sherrill Drive' 
-                                width='400'/>
+                                width='400'
+                                className='photos'/>
                         </a>
                     </div>
                     <div className='item'>
@@ -62,7 +65,8 @@ class PhotoHobby extends Component {
                             <img 
                                 src='https://lfuen.github.io/portimages/waterfall.jpeg' 
                                 alt='Cunningham Falls' 
-                                width='400'/>
+                                width='400'
+                                className='photos'/>
                         </a>
                     </div>
                     <div className='item'>    
@@ -76,7 +80,8 @@ class PhotoHobby extends Component {
                             <img 
                                 src='https://lfuen.github.io/portimages/stream.jpeg' 
                                 alt='Pinehurst Branch' 
-                                width='400'/>
+                                width='400'
+                                className='photos'/>
                         </a>
                     </div>
 
