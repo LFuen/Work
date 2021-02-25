@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Work/static/css/main.b88a72bd.chunk.css",
-    "main.js": "/Work/static/js/main.07e5bfad.chunk.js",
-    "main.js.map": "/Work/static/js/main.07e5bfad.chunk.js.map",
+    "main.css": "/Work/static/css/main.e04e7634.chunk.css",
+    "main.js": "/Work/static/js/main.98e83bb5.chunk.js",
+    "main.js.map": "/Work/static/js/main.98e83bb5.chunk.js.map",
     "runtime-main.js": "/Work/static/js/runtime-main.3b6ee372.js",
     "runtime-main.js.map": "/Work/static/js/runtime-main.3b6ee372.js.map",
     "static/js/2.bc85fe76.chunk.js": "/Work/static/js/2.bc85fe76.chunk.js",
     "static/js/2.bc85fe76.chunk.js.map": "/Work/static/js/2.bc85fe76.chunk.js.map",
     "index.html": "/Work/index.html",
-    "static/css/main.b88a72bd.chunk.css.map": "/Work/static/css/main.b88a72bd.chunk.css.map",
+    "static/css/main.e04e7634.chunk.css.map": "/Work/static/css/main.e04e7634.chunk.css.map",
     "static/js/2.bc85fe76.chunk.js.LICENSE.txt": "/Work/static/js/2.bc85fe76.chunk.js.LICENSE.txt",
     "static/media/travelers.bc2f7efb.png": "/Work/static/media/travelers.bc2f7efb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3b6ee372.js",
     "static/js/2.bc85fe76.chunk.js",
-    "static/css/main.b88a72bd.chunk.css",
-    "static/js/main.07e5bfad.chunk.js"
+    "static/css/main.e04e7634.chunk.css",
+    "static/js/main.98e83bb5.chunk.js"
   ]
 }
