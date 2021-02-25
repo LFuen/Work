@@ -143,10 +143,10 @@ footer {
 
 .flexColumn {
   display: flex;
+  width: 75%;
   flex-direction: column;
   margin-bottom: 5px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: auto;
   align-items: center;
   justify-content: center;
   padding: 25px 10px 25px 10px;

@@ -29,32 +29,36 @@ class Welcome extends Component{
             </div>
             <div>
                 <h2 className='flexRow' id='Welcome'>Welcome</h2>
-                    <div className='flexColumn'>
+                <div className='flexColumn'>
                     <p>My name is Lili and I want to thank you for visiting my page. Let me take a minute here to share what it is that I do.</p>
                     <p>My official title is Software Engineer, but I'm versed in:</p>
-                    </div>
-                    <div className='borderOne' id='versed'>
+                </div>
+                <div className='borderOne' id='versed'>
                     <p><b>Front-end Development</b></p>
                     <p><b>Back-end Development</b></p> 
                     <p><b>Full-Stack Development</b></p> 
-                    </div>
-                    <Images className='icons'>
-                        <img className='badge' src={html} />
-                        <img className='badge' src={css} />
-                        <img className='badge' src={react} />
-                        <img className='badge' src={js} />
-                        <img className='badge' src={node} />
-                        <img className='badge' src={express} />
-                    </Images>
-                        <br/>
-                    <Images className='icons'>
-                        <img className='badge' src={styled} />
-                        <img className='badge' src={gh} />
-                        <img className='badge' src={postgres} />
-                        <img className='badge' src={heroku} />
-                        <img className='badge' src={git} />
-                        <img className='badge' src={vstudio} />
-                    </Images>
+                </div>
+                <Images className='icons'>
+                    <img className='badge' src={html} />
+                    <img className='badge' src={css} />
+                    <img className='badge' src={react} />
+                </Images>
+                <Images>
+                    <img className='badge' src={js} />
+                    <img className='badge' src={node} />
+                    <img className='badge' src={express} />
+                </Images>
+                    <br/>
+                <Images className='icons'>
+                    <img className='badge' src={styled} />
+                    <img className='badge' src={gh} />
+                    <img className='badge' src={postgres} />
+                </Images>
+                <Images>
+                    <img className='badge' src={heroku} />
+                    <img className='badge' src={git} />
+                    <img className='badge' src={vstudio} />
+                </Images>
             </div>
         </WelcomeDiv>
         );

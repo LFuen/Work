@@ -27,7 +27,7 @@ class About extends Component{
                 <p><b>Services I offer include, but are not limited to:</b></p>
             </div>
             
-            <div className='borderOne margin' id='services'> 
+            <div className='borderOne' id='services'> 
                 <p><b>Database Integration</b></p>
                 <p><b>Application Development and Testing</b></p>
                 <p><b>Systems Integration</b></p>

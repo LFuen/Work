@@ -7,6 +7,8 @@ const WelcomeDiv = styled.div`
     animation: 2s ${fadeIn};
 `
 const Images = styled.div`
+    float: center;
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -43,6 +45,11 @@ const Images = styled.div`
     animation-iteration-count: 1, infinite;
     animation-fill-mode: forwards;
     animation-direction: normal, alternate;
+}
+
+@media screen and (max-width: 1020px) {
+    float: none;
+    text-align: center;
 }
 `
 
