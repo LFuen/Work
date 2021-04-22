@@ -1,6 +1,10 @@
 import React, {Component} from 'react'
 import './Contact.css'
 import { ContactDiv } from './styledC';
+import gram from './images/gram.png'
+import email from './images/email.png'
+import linked from './images/linked.png'
+import git from './images/github.png'
 
 
 class Contact extends Component{
@@ -22,7 +26,7 @@ class Contact extends Component{
                                     <img    
                                         className='regSize' 
                                         alt='LinkedIn' 
-                                        src='https://lfuen.github.io/portimages/linkedIn-1.png'/>
+                                        src={linked}/>
                                 </span>
                             </a>
                         </p>
@@ -36,7 +40,7 @@ class Contact extends Component{
                                     <img 
                                         className='regSize' 
                                         alt='GitHub' 
-                                        src='https://lfuen.github.io/portimages/github-1.png'/>
+                                        src={git}/>
                                 </span>
                             </a>
                         </p>
@@ -50,21 +54,21 @@ class Contact extends Component{
                                     <img 
                                         className='regSize' 
                                         alt='Instagram' 
-                                        src='https://lfuen.github.io/portimages/theGram-1.png'/>
+                                        src={gram}/>
                                 </span>
                             </a>
                         </p>
                         
                         <p>
                             <a
-                                href='mailto:lile7886@gmail.com' 
+                                href='mailto:lili@ledjj.org' 
                                 target='_blank' 
                                 rel='noreferrer'>
-                                <span title='LilE7886@GMail.com'>
+                                <span title='Lili@LEDJJ.org'>
                                     <img 
                                         className='regSize' 
                                         alt='E-Mail' 
-                                        src='https://lfuen.github.io/portimages/email-1.png'/>
+                                        src={email}/>
                                 </span>
                             </a>
                         </p>

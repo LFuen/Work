@@ -1,5 +1,10 @@
 import {Component} from 'react'
 import './PhotoHobby.css'
+import great from './images/greatFalls.jpeg'
+import reflect from './images/reflection.jpeg'
+import road from './images/road.jpeg'
+import waterfall from './images/waterfall.jpeg' 
+import stream from './images/stream.jpeg'
 
 
 class PhotoHobby extends Component {
@@ -12,13 +17,13 @@ class PhotoHobby extends Component {
                     <div className='item'>
                         <a 
                             className='picture' 
-                            href='https://lfuen.github.io/portimages/greatFalls.jpeg' 
+                            href={great} 
                             target='_blank'
                             rel='noreferrer'
                             title='Great Falls'>
                             
                             <img 
-                                src='https://lfuen.github.io/portimages/greatFalls.jpeg' 
+                                src={great} 
                                 alt='Great Falls' 
                                 width='400'
                                 className='photos'/>
@@ -27,13 +32,13 @@ class PhotoHobby extends Component {
                     <div className='item'>
                         <a 
                             className='picture' 
-                            href='https://lfuen.github.io/portimages/reflection.jpeg' 
+                            href={reflect} 
                             target='_blank'
                             rel='noreferrer'
                             title='Reflection'>
                             
                             <img 
-                                src='https://lfuen.github.io/portimages/reflection.jpeg' 
+                                src={reflect} 
                                 alt='Reflection' 
                                 width='400'
                                 className='photos'/>
@@ -42,13 +47,13 @@ class PhotoHobby extends Component {
                     <div className='item'>
                         <a 
                             className='picture' 
-                            href='https://lfuen.github.io/portimages/road.jpeg' 
+                            href={road} 
                             target='_blank'
                             rel='noreferrer'
                             title='Sherrill Drive'>
                             
                             <img 
-                                src='https://lfuen.github.io/portimages/road.jpeg' 
+                                src={road} 
                                 alt='Sherrill Drive' 
                                 width='400'
                                 className='photos'/>
@@ -57,13 +62,13 @@ class PhotoHobby extends Component {
                     <div className='item'>
                         <a 
                             className='picture' 
-                            href='https://lfuen.github.io/portimages/waterfall.jpeg' 
+                            href={waterfall} 
                             target='_blank'
                             rel='noreferrer'
                             title='Cunningham Falls'>
                             
                             <img 
-                                src='https://lfuen.github.io/portimages/waterfall.jpeg' 
+                                src={waterfall} 
                                 alt='Cunningham Falls' 
                                 width='400'
                                 className='photos'/>
@@ -72,13 +77,13 @@ class PhotoHobby extends Component {
                     <div className='item'>    
                         <a 
                             className='picture' 
-                            href='https://lfuen.github.io/portimages/stream.jpeg' 
+                            href={stream} 
                             target='_blank'
                             rel='noreferrer'
                             title='Pinehurst Branch'>
                             
                             <img 
-                                src='https://lfuen.github.io/portimages/stream.jpeg' 
+                                src={stream} 
                                 alt='Pinehurst Branch' 
                                 width='400'
                                 className='photos'/>
