@@ -42,6 +42,6 @@ class About extends Component{
     }
 }
 
-//another random comment
+//comment
 
 export default About
