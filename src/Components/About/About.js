@@ -42,6 +42,6 @@ class About extends Component{
     }
 }
 
-//test2
+//new remote test
 
 export default About
