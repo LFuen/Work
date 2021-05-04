@@ -42,6 +42,6 @@ class About extends Component{
     }
 }
 
-//testing
+//test2
 
 export default About
