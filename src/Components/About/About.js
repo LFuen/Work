@@ -42,6 +42,6 @@ class About extends Component{
     }
 }
 
-//new remote test
+//gh install
 
 export default About
