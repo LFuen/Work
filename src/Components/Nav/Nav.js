@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Route, BrowserRouter, NavLink } from 'react-router-dom'
+import { Route, BrowserRouter, NavLink, Switch } from 'react-router-dom'
 import './Nav.css'
 import Welcome from '../Welcome/Welcome'
 import About from '../About/About'
@@ -16,7 +16,7 @@ import Inquiries from '../Inquiries/Inquiries'
         const closeMenu = () => setClick(false);
 
         return(
-            <BrowserRouter>
+            <div>
                 <nav className="navbar navigation topnav">
                     <div className="menu-icon" onClick={handleClick}>
                     <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -50,12 +50,14 @@ import Inquiries from '../Inquiries/Inquiries'
                         </li>
                     </ul>
                 </nav>
-                <Route exact path='/Work' component={Welcome}/>
-                <Route exact path='/About' component={About}/>
-                <Route exact path='/Projects' component={Projects}/>
-                <Route exact path='/Contact' component={Contact}/>
-                <Route exact path='/Inquiries' component={Inquiries}/>
-            </BrowserRouter>
+                <Switch>
+                    <Route exact path='/Work' component={Welcome}/>
+                    <Route exact path='/About' component={About}/>
+                    <Route exact path='/Projects' component={Projects}/>
+                    <Route exact path='/Contact' component={Contact}/>
+                    <Route exact path='/Inquiries' component={Inquiries}/>
+                </Switch>
+            </div>    
         )
 }
 
