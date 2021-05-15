@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.f92ad054.chunk.css",
-    "main.js": "/static/js/main.deba34eb.chunk.js",
-    "main.js.map": "/static/js/main.deba34eb.chunk.js.map",
+    "main.css": "/static/css/main.79010673.chunk.css",
+    "main.js": "/static/js/main.f74b9103.chunk.js",
+    "main.js.map": "/static/js/main.f74b9103.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/js/2.93271e68.chunk.js": "/static/js/2.93271e68.chunk.js",
     "static/js/2.93271e68.chunk.js.map": "/static/js/2.93271e68.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.f92ad054.chunk.css.map": "/static/css/main.f92ad054.chunk.css.map",
+    "static/css/main.79010673.chunk.css.map": "/static/css/main.79010673.chunk.css.map",
     "static/js/2.93271e68.chunk.js.LICENSE.txt": "/static/js/2.93271e68.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/background.2fc107b8.jpg",
     "static/media/chef.2858ad44.png": "/static/media/chef.2858ad44.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.d0605945.js",
     "static/js/2.93271e68.chunk.js",
-    "static/css/main.f92ad054.chunk.css",
-    "static/js/main.deba34eb.chunk.js"
+    "static/css/main.79010673.chunk.css",
+    "static/js/main.f74b9103.chunk.js"
   ]
 }
