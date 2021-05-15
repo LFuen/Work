@@ -10,7 +10,7 @@ class Inquiries extends Component{
             <article className='margin'>
                 <h1 id='Inquiries'>Inquiries</h1>
                 <div className='bg-color'>
-                    <form action='https://formspree.io/lile7886@gmail.com' method='post'>
+                    <form action='https://formspree.io/f/mnqlpvll' method='post'>
                         <fieldset>
                         <legend>E-Mail Me</legend>
                         <label htmlFor='user-name'>Name:</label>
