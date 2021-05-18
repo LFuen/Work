@@ -13,11 +13,9 @@
     align-items: center;
 }
 
-div .app {
-    margin-bottom: 50px;
+#submit:hover {
+    background-color: aquamarine;
 }
-
-
 
 @media screen and (max-width: 1020px) {
     

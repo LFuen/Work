@@ -12,7 +12,6 @@ class Inquiries extends Component{
                 <div className='bg-color'>
                     <form action='https://formspree.io/f/mnqlpvll' method='post'>
                         <fieldset>
-                        <legend>E-Mail Me</legend>
                         <label htmlFor='user-name'>Name:</label>
                         <input 
                             className='neumorphic neumorphic--inset pressed'
@@ -40,7 +39,7 @@ class Inquiries extends Component{
                             placeholder='How may I help you?'>
                         </textarea>
 
-                        <button type='submit'>Submit</button>
+                        <button type='submit' id='submit'>Submit</button>
                         </fieldset>
                     </form>
                 </div>

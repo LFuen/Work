@@ -58,7 +58,7 @@ ul.nav-menu {
     list-style: none;
     text-align: center;
     width: fit-content;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .nav-item {
