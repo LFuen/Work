@@ -25,7 +25,7 @@ class Welcome extends Component{
                 <h1 className='flexRow' >Lili Fuentes</h1>
             </header>      
             <div className='margin'> 
-                <span title='Say Cheese!'><img className='badge' className='centerImage' alt='Hiking' src={smile}/></span> 
+                <span title='Say Cheese!'><img className='badge centerImage' alt='Hiking' src={smile}/></span> 
             </div>
             <div>
                 <h2 className='flexRow' id='Welcome'>Welcome</h2>
@@ -38,25 +38,25 @@ class Welcome extends Component{
                     <p><b>UI Development / Design</b></p>
                 </div>
                 <Images className='icons'>
-                    <img className='badge' src={html} />
-                    <img className='badge' src={css} />
-                    <img className='badge' src={react} />
+                    <img className='badge' src={html} alt='html'/>
+                    <img className='badge' src={css} alt='css'/>
+                    <img className='badge' src={react} alt='react'/>
                 </Images>
                     <br/>
                 <Images className='icons'>
-                    <img className='badge' src={styled} />
-                    <img className='badge' src={gh} />
-                    <img className='badge' src={postgres} />
+                    <img className='badge' src={styled} alt='styled components'/>
+                    <img className='badge' src={gh} alt='github'/>
+                    <img className='badge' src={postgres} alt='postgresql'/>
                 </Images>
                 <Images>
-                    <img className='badge' src={js} />
-                    <img className='badge' src={node} />
+                    <img className='badge' src={js} alt='javascript'/>
+                    <img className='badge' src={node} alt='node'/>
                 </Images>
                 <Images>
-                    <img className='badge' src={git} />
-                    <img className='badge' src={heroku} />
-                    <img className='badge' src={vstudio} />
-                    <img className='badge' src={figma} />
+                    <img className='badge' src={git} alt='git'/>
+                    <img className='badge' src={heroku} alt='heroku'/>
+                    <img className='badge' src={vstudio} alt='visual studio'/>
+                    <img className='badge' src={figma} alt='figma'/>
                 </Images>
             </div>
         </WelcomeDiv>

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Route, BrowserRouter, NavLink, Switch } from 'react-router-dom'
+import { Route, NavLink, Switch } from 'react-router-dom'
 import './Nav.css'
 import Welcome from '../Welcome/Welcome'
 import About from '../About/About'
@@ -24,7 +24,7 @@ import Inquiries from '../Inquiries/Inquiries'
 
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <NavLink to="/Work" className="nav-links link" onClick={closeMenu}>
+                            <NavLink to="/" className="nav-links link" onClick={closeMenu}>
                             Welcome
                             </NavLink>
                         </li>
@@ -51,7 +51,7 @@ import Inquiries from '../Inquiries/Inquiries'
                     </ul>
                 </nav>
                 <Switch>
-                    <Route exact path='/Work' component={Welcome}/>
+                    <Route exact path='/' component={Welcome}/>
                     <Route exact path='/About' component={About}/>
                     <Route exact path='/Projects' component={Projects}/>
                     <Route exact path='/Contact' component={Contact}/>
