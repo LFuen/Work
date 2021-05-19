@@ -42,12 +42,12 @@ import Inquiries from '../Inquiries/Inquiries'
                             <NavLink to="/Contact" className="nav-links link" onClick={closeMenu}>
                             Contact
                             </NavLink>
-                        </li>
-                            <li className="nav-item">
+                         </li>
+                        {/*    <li className="nav-item">
                             <NavLink to="/Inquiries" className="nav-links link" onClick={closeMenu}>
                             Inquiries
                             </NavLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </nav>
                 <Switch>
