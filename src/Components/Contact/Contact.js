@@ -61,10 +61,10 @@ class Contact extends Component{
                         
                         <p>
                             <a
-                                href='mailto:lili@ledjj.org' 
+                                href='mailto:lile7886@gmail.com' 
                                 target='_blank' 
                                 rel='noreferrer'>
-                                <span title='Lili@LEDJJ.org'>
+                                <span title='E-Mail Me!'>
                                     <img 
                                         className='regSize' 
                                         alt='E-Mail' 
