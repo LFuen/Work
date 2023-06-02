@@ -1,4 +1,4 @@
-# Portfolio of works : Last updated May 31st, 2021
+# Portfolio of works : Last updated June 2nd, 2023
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
