@@ -1,0 +1,32 @@
+# A .YAML file is used to export DNS records to a
+# domain managed by Google Cloud. The format is
+# exclusive to Google Cloud DNS.
+
+---
+kind: dns#resourceRecordSet
+name: 'lfuen.com.'
+rrdatas:
+- '185.199.108.153'
+- '185.199.109.153'
+- '185.199.110.153'
+- '185.199.111.153'
+ttl: 3600
+type: A
+---
+kind: dns#resourceRecordSet
+name: 'www.lfuen.com.'
+rrdatas:
+- '_03f0677afd52dfac14b0fbe3d6a530c9.mhbtsbpdnt.acm-validations.aws.'
+ttl: 3600
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: 'lfuen.com.'
+rrdatas:
+- '5 gmr-smtp-in.l.google.com.'
+- '10 alt1.gmr-smtp-in.l.google.com.'
+- '20 alt2.gmr-smtp-in.l.google.com.'
+- '30 alt3.gmr-smtp-in.l.google.com.'
+- '40 alt4.gmr-smtp-in.l.google.com.'
+ttl: 3600
+type: MX

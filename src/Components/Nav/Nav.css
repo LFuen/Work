@@ -1,6 +1,6 @@
 
 .navigation a {
-    color:rgb(206, 206, 206);
+    color:rgb(42, 79, 142);
     font-size: 40px;
     text-decoration: none;
     text-shadow: 2px 2px 5px #90e0ef;
@@ -9,12 +9,12 @@
 }
 
 .link:visited {
-    color:rgb(206, 206, 206);
+    color:rgb(70, 70, 70);
     text-shadow: #1dcaff;
 }
 
 .link:active {
-    color:rgb(206, 206, 206);
+    color:rgb(0, 27, 75);
     text-shadow: #7a1212;
 }
 

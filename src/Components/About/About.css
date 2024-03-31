@@ -1,5 +1,5 @@
 a {
-    color:rgb(158, 158, 158);
+    color:rgb(0, 27, 75);
     text-decoration: none;
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
@@ -16,7 +16,7 @@ a:active {
 
 a:hover,
 a:focus {
-    color: rgb(255, 115, 0);
+    color: rgb(0, 45, 114);
     text-shadow: 2px 2px rgb(51, 255, 0);
     background-size: 100%;
     border-radius: 50px;

@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import './Projects.css'
 import travel from './images/travelers.png'
-import random from './images/question.png'
 import conc from './images/concretti.png'
 import { ProjectDiv } from './styledP';
 
