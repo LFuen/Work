@@ -36,7 +36,7 @@ class Welcome extends Component{
                 <div className='borderOne' id='versed'>
                     <p><b>Front-end Development</b></p>
                     <p><b>UI Development / Design</b></p>
-                    <p><b>AWS: Solutions Architect Training</b></p>
+                    <p><b>UX/UI Training by Google (in progress)</b></p>
                 </div>
                 <Images className='icons'>
                     <img className='badge' src={html} alt='html'/>
