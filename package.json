@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://www.lfuen.com/#/Work",
+  "homepage": "https://lfuen.github.io/Work",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "react-lightbox-component": "^1.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.0.1",
-    "react-test-renderer": "^17.0.1",
+    "react-test-renderer": "^18.3.1",
     "reactstrap": "^8.9.0",
     "save-dev": "^0.0.1-security",
     "styled-components": "^5.2.1",
