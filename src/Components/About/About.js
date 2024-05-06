@@ -30,7 +30,7 @@ class About extends Component{
                and design comes in.</p>
             </div>
             </section>
-            <h2 className='flexRow'>Below are my some of my favorite shots and some of my art:</h2>
+            <h2 className='flexRow'>Below are some of my favorite shots and some of my art:</h2>
             <PhotoHobby />
             <Draw />
 
