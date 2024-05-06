@@ -21,7 +21,7 @@ class Contact extends Component{
                             <a   
                                 href='https://www.linkedin.com/in/lilifuentes/' 
                                 target='_blank' 
-                                rel='noreferrer'>
+                                rel='noopener noreferrer'>
                                 <span title='Lili Fuentes on LinkedIn'>
                                     <img    
                                         className='regSize' 
@@ -35,7 +35,7 @@ class Contact extends Component{
                             <a 
                                 href='https://www.github.com/LFuen' 
                                 target='_blank' 
-                                rel='noreferrer'>
+                                rel='noopener noreferrer'>
                                 <span title='Lili Fuentes on GitHub'>
                                     <img 
                                         className='regSize' 
@@ -49,7 +49,7 @@ class Contact extends Component{
                             <a 
                                 href='https://www.instagram.com/lilifuen' 
                                 target='_blank' 
-                                rel='noreferrer'>
+                                rel='noopener noreferrer'>
                                 <span title='Lili Fuentes on Instagram'>
                                     <img 
                                         className='regSize' 
@@ -63,7 +63,7 @@ class Contact extends Component{
                             <a
                                 href='mailto:lile7886@gmail.com' 
                                 target='_blank' 
-                                rel='noreferrer'>
+                                rel='noopener noreferrer'>
                                 <span title='E-Mail Me!'>
                                     <img 
                                         className='regSize' 

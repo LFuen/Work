@@ -124,13 +124,12 @@ a:visited {
 footer {
   height: 15px;
   padding: 30px;
-  position: center;
-  background-image: linear-gradient(transparent, #1d3557);
-  text-align: center;
+  position: left;
+  text-align: left;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .flexRow {

@@ -15,7 +15,7 @@ class Draw extends Component {
                         className='picture' 
                         href={nine} 
                         target='_blank'
-                        rel='noreferrer'
+                        rel='noopener noreferrer'
                         title='Great Falls'>
                         
                         <img 
@@ -30,7 +30,7 @@ class Draw extends Component {
                         className='picture' 
                         href={reach} 
                         target='_blank'
-                        rel='noreferrer'
+                        rel='noopener noreferrer'
                         title='Reflection'>
                         
                         <img 
@@ -45,7 +45,7 @@ class Draw extends Component {
                         className='picture' 
                         href={heart} 
                         target='_blank'
-                        rel='noreferrer'
+                        rel='noopener noreferrer'
                         title='Sherrill Drive'>
                         
                         <img 
@@ -60,7 +60,7 @@ class Draw extends Component {
                         className='picture' 
                         href={rose} 
                         target='_blank'
-                        rel='noreferrer'
+                        rel='noopener noreferrer'
                         title='Cunningham Falls'>
                         
                         <img 
@@ -75,7 +75,7 @@ class Draw extends Component {
                         className='picture' 
                         href={drax} 
                         target='_blank'
-                        rel='noreferrer'
+                        rel='noopener noreferrer'
                         title='Pinehurst Branch'>
                         
                         <img 

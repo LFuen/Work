@@ -1,4 +1,4 @@
-import {Component} from 'react'
+import React, {Component} from 'react'
 import './PhotoHobby.css'
 import great from './images/greatFalls.jpeg'
 import reflect from './images/reflection.jpeg'
@@ -19,7 +19,7 @@ class PhotoHobby extends Component {
                             className='picture' 
                             href={great} 
                             target='_blank'
-                            rel='noreferrer'
+                            rel='noopener noreferrer'
                             title='Great Falls'>
                             
                             <img 
@@ -34,7 +34,7 @@ class PhotoHobby extends Component {
                             className='picture' 
                             href={reflect} 
                             target='_blank'
-                            rel='noreferrer'
+                            rel='noopener noreferrer'
                             title='Reflection'>
                             
                             <img 
@@ -49,7 +49,7 @@ class PhotoHobby extends Component {
                             className='picture' 
                             href={road} 
                             target='_blank'
-                            rel='noreferrer'
+                            rel='noopener noreferrer'
                             title='Sherrill Drive'>
                             
                             <img 
@@ -64,7 +64,7 @@ class PhotoHobby extends Component {
                             className='picture' 
                             href={waterfall} 
                             target='_blank'
-                            rel='noreferrer'
+                            rel='noopener noreferrer'
                             title='Cunningham Falls'>
                             
                             <img 
@@ -79,7 +79,7 @@ class PhotoHobby extends Component {
                             className='picture' 
                             href={stream} 
                             target='_blank'
-                            rel='noreferrer'
+                            rel='noopener noreferrer'
                             title='Pinehurst Branch'>
                             
                             <img 
