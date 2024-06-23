@@ -355,8 +355,22 @@ textarea {
   font-family: "Alegreya";
   padding: 0;
   }
+
   p {
     text-align: center;
   }
+
+  .nav-menu.active {
+    background: #ffffff;
+    background-image: url("../../Components/App/images/LFlogo.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 80% !important;
+    background-size: 25% 25%;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
 }
 
