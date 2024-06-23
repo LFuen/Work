@@ -43,11 +43,6 @@ import Inquiries from '../Inquiries/Inquiries'
                             Contact
                             </NavLink>
                          </li>
-                        {/*    <li className="nav-item">
-                            <NavLink to="/Inquiries" className="nav-links link" onClick={closeMenu}>
-                            Inquiries
-                            </NavLink>
-                        </li> */}
                     </ul>
                 </nav>
                 <Switch>

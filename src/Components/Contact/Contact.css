@@ -11,3 +11,21 @@ h2 {
 div.bg-color {
     padding: 25px 10px 25px 10px;
 }
+
+@media screen and (max-width: 1020px) {
+
+    #Contact { 
+        margin-top: 30px !important;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 635px) {
+    #Contact {
+
+    }
+    p {
+      text-align: center;
+    }
+  }

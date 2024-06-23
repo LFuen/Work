@@ -1,13 +1,14 @@
 body {
-  background-image: url("./images/background.png");
-  background-color: #1d3557;
+  background-image: url("./images/LFlogo.svg");
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
-  color: rgb(0, 27, 75);
-  text-shadow: 2px 2px 5px #90e0ef;
+  background-position: 1% 10%;
+  background-size: 25% 25%;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px #606060;
   font-family: "Alegreya";
-  padding-bottom: 120px;
+  padding: 0;
 }
 
 .textShadow {
@@ -21,7 +22,7 @@ body {
 
 
 h1 {
-  color: rgb(0, 27, 75);
+  color: rgb(111, 154, 228);
   margin-top: 40px;
   font-size: 50px;
   font-family: 'Permanent Marker', cursive;
@@ -190,7 +191,7 @@ section.bg-color {
     margin-right: auto;
     width: 25%;
     height: 25%;
-    box-shadow: 5px 5px 5px #90e0ef;
+    box-shadow: 5px 5px 5px #989898;
 }
 
 /*=======================================================*/
@@ -207,7 +208,7 @@ section.bg-color {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(rgb(0, 27, 75), black);
+  background: linear-gradient(rgb(0, 27, 75), rgb(255, 255, 255));
   border-radius: 10px;
 }
 
@@ -218,7 +219,7 @@ section.bg-color {
 form {
   width: 50%;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #90e0ef;
+  box-shadow: 5px 5px 5px #606060;
   display: block;
   margin: 0 auto !important;
   border-color: solid rgb(0, 27, 75);
@@ -240,7 +241,7 @@ form input[type=text] {
   width: 90%;
   background-color: lightgrey;
   border-radius: 5px;
-  box-shadow: 3px 3px 3px #90e0ef;
+  box-shadow: 3px 3px 3px #606060;
 }
 
 form button {
@@ -250,10 +251,10 @@ form button {
   font-family: "Alegreya";
   font-size: 16px;
   color: rgb(0, 27, 75);
-  text-shadow: 2px 2px 5px #90e0ef;
+  text-shadow: 2px 2px 5px #606060;
   margin: 15px 8px 10px 0;
   background-image: linear-gradient(black, #1d3557);
-  box-shadow: 3px 3px 3px #90e0ef;
+  box-shadow: 3px 3px 3px #606060;
 }
 
 fieldset {
@@ -265,7 +266,7 @@ fieldset {
 textarea {
   width: 90%;
   height: 200px;
-  box-shadow: 5px 5px 5px #90e0ef;
+  box-shadow: 5px 5px 5px #606060;
   background-color: lightgrey;
   border-radius: 5px;
 }
@@ -282,14 +283,22 @@ textarea {
       padding: 0 30px;
   }
 
+  #Top {
+    margin-top: 15% !important;
+  }
+
+  .mainPic {
+    margin-bottom: 70px !important;
+  }
+
   head nav {
       margin-top: 8px;
   }
 
   body {
       width: fit-content;
-      background-image: url("./images/background.png");
-      background-color: black;
+      background-image: url("./images/LFlogo.svg");
+      background-color: rgb(255, 255, 255);
   }
 
   p {
@@ -315,5 +324,22 @@ textarea {
 
 .active {
   z-index: 99;
+}
+
+@media screen and (max-width: 635px) {
+  body {background-image: url("./images/LFlogo.svg");
+  background-color: #e2e2e2;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 3% -4%;
+  background-size: 25% 25%;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px #606060;
+  font-family: "Alegreya";
+  padding: 0;
+  }
+  p {
+    text-align: center;
+  }
 }
 

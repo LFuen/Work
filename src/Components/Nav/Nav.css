@@ -1,20 +1,20 @@
 
 .navigation a {
-    color:rgb(42, 79, 142);
+    color:rgb(0, 0, 0);
     font-size: 40px;
     text-decoration: none;
-    text-shadow: 2px 2px 5px #90e0ef;
-    font-family: 'Big Shoulders Stencil Text', cursive;
+    text-shadow: 2px 2px 5px #606060;
+    font-family: 'Permanent Marker', cursive;
     padding: 15px;
 }
 
 .link:visited {
-    color:rgb(70, 70, 70);
-    text-shadow: #1dcaff;
+    color:rgb(138, 190, 216);
+    text-shadow: #606060;
 }
 
 .link:active {
-    color:rgb(0, 27, 75);
+    color:rgb(82, 112, 162);
     text-shadow: #7a1212;
 }
 
@@ -23,8 +23,8 @@
     animation-duration: 0.75s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
-    color: #1dcaff;
-    text-shadow: 2px 2px 6px rgb(207, 111, 0);
+    color: #606060;
+    text-shadow: 2px 2px 6px rgb(60, 60, 60);
 }
 .navbar {
     justify-content: center;
@@ -54,7 +54,7 @@ ul.nav-menu {
 .nav-menu {
     display: flex;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 20px;
+    grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: fit-content;
@@ -67,7 +67,7 @@ ul.nav-menu {
 }
 
 .fa-bars {
-    color: rgb(0, 225, 255);
+    color: rgb(23, 91, 100);
 }
 
 .nav-links-mobile {
@@ -129,20 +129,29 @@ ul.nav-menu {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         position: absolute;
-        top: 80px;
         left: -100%;
-        opacity: .9;
+        z-index: 1;
+        opacity: .65;
         transition: all 0.5s ease;
     }
     
     .nav-menu.active {
-        background: #000000;
+        background: #ffffff;
+        background-image: url("../../Components/App/images/LFlogo.svg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 70%;
+        background-size: 25% 25%;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+    }
+
+    ul.nav-menu {
+        padding-top: 25%;
     }
     
     .nav-links {
@@ -153,7 +162,7 @@ ul.nav-menu {
     }
     
     .nav-links:hover {
-        background-color: #2e2e2e;
+        background-color: #ffffff;
         border-radius: 10;
     }
     
@@ -169,6 +178,7 @@ ul.nav-menu {
         position: absolute;
         top: 0;
         right: 0;
+        z-index: 2;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
@@ -186,7 +196,7 @@ ul.nav-menu {
         margin: 2rem auto;
         border-radius: 4px;
         width: 80%;
-        background: #000000;
+        background: #ffffff;
         text-decoration: none;
         color: #fff;
         font-size: 1.5rem;
@@ -203,7 +213,7 @@ ul.nav-menu {
     }
 
     body {
-        background-color: black;
+        background-color: rgb(255, 255, 255);
         width: 100%;
     }
 

@@ -24,10 +24,8 @@ class Welcome extends Component{
             <header id='Top' className='margin'>
                 <h1 className='flexRow' >Lili Fuentes</h1>
             </header>      
-            <div className='margin'> 
+            <div className='mainPic'> 
                 <span title='Say Cheese!'><img className='badge centerImage' alt='Hiking' src={smile}/></span> 
-            </div>
-            <div>
                 <h2 className='flexRow' id='Welcome'>Welcome</h2>
                 <div className='flexColumn'>
                     <p>My name is Lili and I want to thank you for visiting my page. Let me take a minute here to share what it is that I do.</p>

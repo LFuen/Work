@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import './Projects.css'
 import travel from './images/travelers.png'
 import conc from './images/concretti.png'
+import montalvo from './images/montalvo.png'
 import { ProjectDiv } from './styledP';
 
 
@@ -16,6 +17,17 @@ class Projects extends Component{
                 <div className='borderOne flexRow proj'>
                     <p>WORK COMING SOON</p>
                 </div>
+                <br/>
+                <br/>
+                <br/>
+
+                <h2>Montalvo Interiors</h2>
+                <div className='borderOne flexRow proj'>
+                    <a href='https://montalvo-interiors.com/' target='_blank' rel='noopener noreferrer'><img src={montalvo} alt='Montalvo Interiors'/></a>
+                </div>
+                <br/> 
+                <p className='describe'>Interior design website for Montalvo Interiors.</p>
+                <p className='skills'><b>Created and designed in Wix.</b></p>
                 <br/>
                 <br/>
                 <br/>
