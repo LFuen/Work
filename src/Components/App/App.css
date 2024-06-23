@@ -343,3 +343,20 @@ textarea {
   }
 }
 
+@media screen and (max-width: 430px) {
+  body {background-image: url("./images/LFlogo.svg");
+  background-color: #e2e2e2;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 3% 0%;
+  background-size: 15% 15%;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px #606060;
+  font-family: "Alegreya";
+  padding: 0;
+  }
+  p {
+    text-align: center;
+  }
+}
+
