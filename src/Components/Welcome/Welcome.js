@@ -22,7 +22,7 @@ class Welcome extends Component{
         return (
         <WelcomeDiv>
             <header id='Top' className='margin'>
-                <h1 className='flexRow' >Lili Fuentes</h1>
+                <h1 className='flexRow'>Lili Fuentes</h1>
             </header>      
             <div className='mainPic'> 
                 <span title='Say Cheese!'><img className='badge centerImage' alt='Hiking' src={smile}/></span> 
@@ -34,7 +34,7 @@ class Welcome extends Component{
                 <div className='borderOne' id='versed'>
                     <p><b>Front-end Development</b></p>
                     <p><b>UI Development / Design</b></p>
-                    <p><b>UX/UI Training by Google (in progress)</b></p>
+                    <p><b>UX/UI Training by Google</b></p>
                 </div>
                 <Images className='icons'>
                     <img className='badge' src={html} alt='html'/>
