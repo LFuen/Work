@@ -16,7 +16,10 @@ class Projects extends Component{
                 <h2>UX/UI Portfolio Work</h2>
                 <div className='borderOne flexRow proj'>
                     <p>This is my personal Figma account where I am currently working on various designs at the moment.</p>
-                    <a href='https://www.figma.com/files/team/938620361295648566/project/23543582/Projects?fuid=938620357300299496' target='_blank' rel='noopener noreferrer'>L Fuentes on Figma</a>
+                    <p>
+                        <a href='https://www.figma.com/files/team/938620361295648566/project/23543582/Projects?fuid=938620357300299496' target='_blank' rel='noopener noreferrer'>L Fuentes on Figma</a>
+                    </p>
+                    
                 </div>
                 <br/>
                 <br/>
