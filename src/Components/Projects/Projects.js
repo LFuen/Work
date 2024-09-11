@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './Projects.css'
-import travel from './images/travelers.png'
+import figma from './images/figma3D.png'
 import conc from './images/concretti.png'
 import montalvo from './images/montalvo.png'
 import { ProjectDiv } from './styledP';
@@ -14,13 +14,10 @@ class Projects extends Component{
             <section className='flexColumn'>
 
                 <h2>UX/UI Portfolio Work</h2>
-                <div className='borderOne flexRow proj'>
-                    <p>This is my personal Figma account where I am currently working on various designs at the moment.</p>
-                    <p>
-                        <a href='https://www.figma.com/files/team/938620361295648566/project/23543582/Projects?fuid=938620357300299496' target='_blank' rel='noopener noreferrer'>L Fuentes on Figma</a>
-                    </p>
-                    
-                </div>
+                <div className='borderOne flexRow proj'>                    
+                    <a href='https://www.figma.com/files/team/938620361295648566/project/23543582/Projects?fuid=938620357300299496' target='_blank' rel='noopener noreferrer'><img src={figma} alt='3D Figma Logo by Nand Kishor on Dribbble' /></a>
+                </div>                    
+                <p className='skills'>(logo credit to Nanda Kishor on Dribbble)</p>
                 <br/>
                 <br/>
                 <br/>
@@ -42,7 +39,8 @@ class Projects extends Component{
                 </div>
                 <br/>
                 <a href='https://github.com/LFuen/ConcDemoClient' target='_blank' rel='noopener noreferrer'>Project Repo</a>
-                <p className='describe'>This project is a suite of applications for Concretti, an artisanal concrete production company.  The database for this project has been shut down.for screenshots, please visit the Github Repository.</p>
+                <p className='describe'>This project is a suite of applications for Concretti, an artisanal concrete production company.</p>
+                <p>  The database for this project has been shut down, please visit the Github Repository for screenshots.</p>
                 <p className='skills'><u><b>Skills:</b><br/></u> React / JavaScript / CSS / Node / PostgreSQL</p>
 
             </section>
