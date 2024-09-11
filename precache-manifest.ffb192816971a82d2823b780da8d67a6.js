@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46bcc9f9f77970b6796e8eb5f7d49c18",
+    "revision": "7c7485761eb6f2d4c4c0b228c0ce9efe",
     "url": "/index.html"
   },
   {
-    "revision": "bc5395412cac0b6ee354",
-    "url": "/static/css/main.8b900792.chunk.css"
+    "revision": "9eccf4f21b0b7e291b57",
+    "url": "/static/css/main.3b62f76e.chunk.css"
   },
   {
-    "revision": "94e93a0c2dacd8cb3f51",
-    "url": "/static/js/2.4af3bf1e.chunk.js"
+    "revision": "6639b291b176b26ccce8",
+    "url": "/static/js/2.575a9e6e.chunk.js"
   },
   {
-    "revision": "bc5395412cac0b6ee354",
-    "url": "/static/js/main.ce56ea4f.chunk.js"
+    "revision": "9eccf4f21b0b7e291b57",
+    "url": "/static/js/main.d764c74b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4b7b39f11235d139eccf4e6214f07fcf",
     "url": "/static/media/drax.4b7b39f1.jpg"
+  },
+  {
+    "revision": "f4607f4e8507c060930b0fbe157a423c",
+    "url": "/static/media/figma3D.f4607f4e.png"
   },
   {
     "revision": "c45a8a94f71b7a9a6e9ad254204cc42e",
@@ -70,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "84eb8fe9318ebf21ae0a40aee9d63723",
     "url": "/static/media/stream.84eb8fe9.jpeg"
-  },
-  {
-    "revision": "0aab2ef86c94061f5962a97732c61459",
-    "url": "/static/media/travelers.0aab2ef8.png"
   },
   {
     "revision": "d470512ad802191d39b1d2d506bad865",

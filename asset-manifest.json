@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b900792.chunk.css",
-    "main.js": "/static/js/main.ce56ea4f.chunk.js",
-    "main.js.map": "/static/js/main.ce56ea4f.chunk.js.map",
+    "main.css": "/static/css/main.3b62f76e.chunk.css",
+    "main.js": "/static/js/main.d764c74b.chunk.js",
+    "main.js.map": "/static/js/main.d764c74b.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.4af3bf1e.chunk.js": "/static/js/2.4af3bf1e.chunk.js",
-    "static/js/2.4af3bf1e.chunk.js.map": "/static/js/2.4af3bf1e.chunk.js.map",
+    "static/js/2.575a9e6e.chunk.js": "/static/js/2.575a9e6e.chunk.js",
+    "static/js/2.575a9e6e.chunk.js.map": "/static/js/2.575a9e6e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a76e723301f92851ea483a3fbfe32b05.js": "/precache-manifest.a76e723301f92851ea483a3fbfe32b05.js",
+    "precache-manifest.ffb192816971a82d2823b780da8d67a6.js": "/precache-manifest.ffb192816971a82d2823b780da8d67a6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.8b900792.chunk.css.map": "/static/css/main.8b900792.chunk.css.map",
+    "static/css/main.3b62f76e.chunk.css.map": "/static/css/main.3b62f76e.chunk.css.map",
     "static/media/Nav.css": "/static/media/LFlogo.a1490dd8.svg",
     "static/media/concretti.png": "/static/media/concretti.75f990dc.png",
     "static/media/drax.jpg": "/static/media/drax.4b7b39f1.jpg",
+    "static/media/figma3D.png": "/static/media/figma3D.f4607f4e.png",
     "static/media/greatFalls.jpeg": "/static/media/greatFalls.c45a8a94.jpeg",
     "static/media/heart.jpg": "/static/media/heart.c1cd1a3f.jpg",
     "static/media/montalvo.png": "/static/media/montalvo.a6e90c3a.png",
@@ -24,7 +25,6 @@
     "static/media/rose.jpeg": "/static/media/rose.cd0a1cf6.jpeg",
     "static/media/smile.jpg": "/static/media/smile.767eea18.jpg",
     "static/media/stream.jpeg": "/static/media/stream.84eb8fe9.jpeg",
-    "static/media/travelers.png": "/static/media/travelers.0aab2ef8.png",
     "static/media/waterfall.jpeg": "/static/media/waterfall.d470512a.jpeg"
   }
 }
