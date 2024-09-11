@@ -15,7 +15,8 @@ class Projects extends Component{
 
                 <h2>UX/UI Portfolio Work</h2>
                 <div className='borderOne flexRow proj'>
-                    <p>WORK COMING SOON</p>
+                    <p>This is my personal Figma account where I am currently working on various designs at the moment.</p>
+                    <a href='https://www.figma.com/files/team/938620361295648566/project/23543582/Projects?fuid=938620357300299496' target='_blank' rel='noopener noreferrer'>L Fuentes on Figma</a>
                 </div>
                 <br/>
                 <br/>
@@ -31,18 +32,6 @@ class Projects extends Component{
                 <br/>
                 <br/>
                 <br/>
-
-                <h2>Travelers</h2>
-                <div className='borderOne flexRow proj'>
-                    <a href='https://travelers.vercel.app/' target='_blank' rel='noopener noreferrer'><img src={travel} alt='Travelers'/></a>
-                </div>
-                <br/>
-                <a href='https://github.com/LFuen/travelers-client'>Project Repo</a> 
-                <p className='describe'>Share travel guides for a community of users.</p>
-                <p className='skills'><u><b>Skills:</b><br/></u> React / JavaScript / CSS / Node / PostgreSQL</p>
-                <br/>
-                <br/>
-                <br/>
                     
                 <h2>Concretti</h2>
                 <div className='borderOne flexRow proj'>
@@ -50,7 +39,7 @@ class Projects extends Component{
                 </div>
                 <br/>
                 <a href='https://github.com/LFuen/ConcDemoClient' target='_blank' rel='noopener noreferrer'>Project Repo</a>
-                <p className='describe'>This project is a suite of applications for Concretti, an artisanal concrete production company.</p>
+                <p className='describe'>This project is a suite of applications for Concretti, an artisanal concrete production company.  The database for this project has been shut down.for screenshots, please visit the Github Repository.</p>
                 <p className='skills'><u><b>Skills:</b><br/></u> React / JavaScript / CSS / Node / PostgreSQL</p>
 
             </section>
