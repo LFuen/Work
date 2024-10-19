@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c7485761eb6f2d4c4c0b228c0ce9efe",
+    "revision": "a9dfc284642e7c28ac894b30da687288",
     "url": "/index.html"
   },
   {
-    "revision": "9eccf4f21b0b7e291b57",
-    "url": "/static/css/main.3b62f76e.chunk.css"
+    "revision": "7529721e28616b2e059e",
+    "url": "/static/css/main.fc8c94ca.chunk.css"
   },
   {
-    "revision": "6639b291b176b26ccce8",
-    "url": "/static/js/2.575a9e6e.chunk.js"
+    "revision": "06ed99343fb495ea635b",
+    "url": "/static/js/2.229188eb.chunk.js"
   },
   {
-    "revision": "9eccf4f21b0b7e291b57",
-    "url": "/static/js/main.d764c74b.chunk.js"
+    "revision": "7529721e28616b2e059e",
+    "url": "/static/js/main.c1f5b5cd.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "a1490dd83662cba3363ec816e9cb2445",
-    "url": "/static/media/LFlogo.a1490dd8.svg"
+    "revision": "d2f43fffb0a1ee909c8f562ceb38c943",
+    "url": "/static/media/LFlogo.d2f43fff.svg"
+  },
+  {
+    "revision": "7f301068d940f1dad5beb6e320cabf5f",
+    "url": "/static/media/cfuen.7f301068.svg"
   },
   {
     "revision": "75f990dc9177890063f81f3387178458",
