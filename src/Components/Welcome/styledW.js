@@ -13,7 +13,7 @@ const Images = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 
 .badge {
     object-fit: scale-down;

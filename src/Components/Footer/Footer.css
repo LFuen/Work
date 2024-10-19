@@ -2,10 +2,10 @@
     display: flex; 
     align-items: center; 
     justify-content: left; 
-    padding: 10px;
+    padding:1rem;
     position: fixed;
     bottom: 0;
-    height: 100px;
+    height: 6.25rem;
     width: 100%;
 }
 

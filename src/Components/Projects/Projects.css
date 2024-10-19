@@ -1,5 +1,5 @@
 .projects h3 {
-font-size: 20px;
+font-size: 1.25rem;
 text-decoration: none;
 text-shadow: 2px 2px 5px #606060;
 font-family: 'Big Shoulders Stencil Text', cursive;
@@ -10,7 +10,7 @@ font-family: 'Big Shoulders Stencil Text', cursive;
         box-shadow: 0 0 0 0 rgba(161, 219, 255, 0.589);
     }
     100% {
-        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 1.25rem rgba(255, 255, 255, 0);
     }
 }
 
@@ -21,6 +21,7 @@ font-family: 'Big Shoulders Stencil Text', cursive;
 .skills {
     color:rgb(22, 65, 15);
     text-align: center;
+    padding-bottom: 1.5rem;
 }
 
 .repskills {
@@ -28,15 +29,13 @@ font-family: 'Big Shoulders Stencil Text', cursive;
 }
 
 .describe {
-    width: 50%;
-    margin: 20px auto;
+    margin: 1.25rem auto;
     text-align: center;
 }
 
 
 @media screen and (max-width: 1020px) {
     .describe {
-        width: 80%;
         font-size: medium;
     }
 }

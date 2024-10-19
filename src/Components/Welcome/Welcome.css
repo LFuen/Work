@@ -3,7 +3,7 @@
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.589);
     }
     100% {
-        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 1.25rem rgba(255, 255, 255, 0);
     }
 }
 
@@ -13,7 +13,7 @@
 }
 
 .margin {
-    margin-top: 100px !important;
+    margin-top: 6.25rem !important;
 }
 
 .welcomeLoad {
@@ -22,6 +22,6 @@
 
 @media screen and (max-width: 1020px) {
     #Welcome {
-        font-size: 40px;
+        font-size:2.5rem;
     }
 }
