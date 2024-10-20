@@ -26,6 +26,7 @@ class Projects extends Component{
                     <a href='https://www.CFuenTherapy.com/' target='_blank' rel='noopener noreferrer'><img src={cfuen} alt='Montalvo Interiors'/></a>
                 </div>
                 <br/> 
+                <a href="https://www.figma.com/design/VbKPE5h3cJGsu5OZsGjATG/CFuen-Therapy?t=4EjYh5eabjjtd8Tx-0" target='_blank' re='noopener noreferrer'>Site Design on Figma</a>
                 <p className='describe'>Personal and professional website for mental health therapy.</p>
                 <p className='skills'><u><b>Skills:</b><br/></u> React / NextJS / JavaScript / CSS / Node / AWS Amplify</p>
 

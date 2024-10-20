@@ -5,6 +5,7 @@ const fadeIn = keyframes`${fadeInDown}`
 
 const WelcomeDiv = styled.div`
     animation: 2s ${fadeIn};
+    margin-top: 6.25rem;
     margin-bottom: 4rem;
 `
 const Images = styled.div`

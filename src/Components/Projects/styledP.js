@@ -5,6 +5,7 @@ const fromRight = keyframes`${fadeInRight}`
 
 const ProjectDiv = styled.div`
     animation: 1s ${fromRight};
+    margin-top: 6.25rem;
     margin-bottom: 4rem;
 `
 
